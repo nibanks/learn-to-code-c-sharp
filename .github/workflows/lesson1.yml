@@ -4,12 +4,12 @@ on:
   push:
     branches: [ main ]
     paths:
-    - .github/workflow/lesson1.yml
+    - .github/workflows/lesson1.yml
     - lesson1/*
   pull_request:
     branches: [ main ]
     paths:
-    - .github/workflow/lesson1.yml
+    - .github/workflows/lesson1.yml
     - lesson1/*
 
 jobs:
