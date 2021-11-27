@@ -1,0 +1,32 @@
+# The workflow for Lesson 1.
+name: Lesson 2
+
+on:
+  # Allow for manually running this workflow.
+  workflow_dispatch:
+  # Run the workflow whenever a change is made to any of this lesson's files.
+  push:
+    branches: [ main ]
+    paths:
+    - .github/workflows/lesson2.yml
+    - lessons/2/*
+  # Run the workflow whenever a Pull Request is made to change this lesson's files.
+  pull_request:
+    branches: [ main ]
+    paths:
+    - .github/workflows/lesson2.yml
+    - lessons/2/*
+
+# Check out the code and then build and run this lesson.
+jobs:
+  build2:
+    name: Lesson 2
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build and Run
+      run: |
+        cd lessons/2
+        dotnet build
+        Write-Host "########################################"
+        dotnet run

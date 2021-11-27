@@ -138,6 +138,8 @@ open up the latest run to see the results!
 
 ### Can I run all this locally?
 
-You can follow the instructions [here](https://docs.microsoft.com/en-us/dotnet/core/install/windows?tabs=net60) to download and install the latest .NET on Windows. This would allow
+You *can* follow the instructions [here](https://docs.microsoft.com/en-us/dotnet/core/install/windows?tabs=net60) to download and install the latest .NET on Windows. This would allow
 you to run everything locally, instead of in the cloud; but for the sake of trying
 to simply the setup, we will leverage the cloud instead.
+
+## Continue to [Lesson 2](../2/Lesson2.md)

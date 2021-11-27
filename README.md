@@ -14,3 +14,4 @@ through the lesson links below.
 # Lessons
 
 - [Lesson 1](lessons/1/Lesson1.md#lesson-1) - Hello World!
+- [Lesson 2](lessons/2/Lesson2.md#lesson-2) - Variables
