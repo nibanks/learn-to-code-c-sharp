@@ -3,8 +3,14 @@ name: Lesson 1
 on:
   push:
     branches: [ main ]
+    paths:
+    - .github/workflow/lesson1.yml
+    - lesson1/*
   pull_request:
     branches: [ main ]
+    paths:
+    - .github/workflow/lesson1.yml
+    - lesson1/*
 
 jobs:
   build1:
@@ -12,10 +18,6 @@ jobs:
     runs-on: windows-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v1
-      with:
-        dotnet-version: 5.0.x
     - name: Build and Run
       run: |
         cd lesson1
