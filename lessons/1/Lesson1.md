@@ -93,7 +93,25 @@ At the bottom of that, you should see the final output of your program:
 
 ## How Did All That Work?
 
-...
+We have a special file, [lesson1.yml](../../.github/workflows/lesson1.yml) that
+tells GitHub how to setup and run everything. There's a lot of stuff in there
+that doesn't matter too much right now, but the important part is:
+
+```yml
+    - name: Build and Run
+      run: |
+        cd lessons/1
+        dotnet build
+        Write-Host "########################################"
+        dotnet run
+```
+
+This essentially says:
+
+ 1. Change the directory to `lessons/1`.
+ 2. Build everything.
+ 3. Print out some stuff so we know where "build" ends and "run" begins.
+ 4. Run the program.
 
 ### Can I run all this locally?
 
