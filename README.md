@@ -6,4 +6,4 @@ need is a browser.
 
 # Lessons
 
-- [Lesson 1](lesson1/Lesson1.md) - Hello World!
+- [Lesson 1](lessons/1/Lesson1.md) - Hello World!
