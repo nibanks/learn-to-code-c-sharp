@@ -22,4 +22,5 @@ jobs:
       run: |
         cd lesson1
         dotnet build
+        ####################################
         dotnet run
