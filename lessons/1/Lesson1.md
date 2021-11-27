@@ -49,6 +49,23 @@ Hello World!
 To make things easy, we will leverage the build-in ability to run code in the
 cloud provided by GitHub Actions.
 
+### Enable GitHub Actions
+
+When you first forked the repo, GitHub Actions were disabled by default. To
+enable them, click the **Actions** tab (near the top middle):
+
+![](../../.images/actions.png)
+
+And then click the button to accept and enable actions:
+
+![](../../.images/actions_accept.png)
+
+Now actions should be enabled!
+
+### Manually Run the Action
+
+
+
 ### Can I run it locally?
 
 You can follow the instructions [here](https://docs.microsoft.com/en-us/dotnet/core/install/windows?tabs=net60) to download and install the latest .NET on Windows. This would allow
