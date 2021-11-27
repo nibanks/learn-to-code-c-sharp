@@ -17,19 +17,10 @@ also copied below:
 ```C#
 using System;
 
-namespace lesson1
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
-    }
-}
+Console.WriteLine("Hello World!");
 ```
 
-You can ignore most everything for now, but let's take a look at:
+You can ignore the `using System;` for now, but let's take a look at:
 
 ```C#
 Console.WriteLine("Hello World!");
