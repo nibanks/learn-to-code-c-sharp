@@ -13,4 +13,4 @@ through the lesson links below.
 
 # Lessons
 
-- [Lesson 1](lessons/1/Lesson1.md) - Hello World!
+- [Lesson 1](lessons/1/Lesson1.md#lesson-1) - Hello World!
