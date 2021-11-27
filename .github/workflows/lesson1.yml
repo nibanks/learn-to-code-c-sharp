@@ -1,0 +1,23 @@
+name: Lesson 1
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build1:
+    name: Lesson 1
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 5.0.x
+    - name: Build and Run
+      run: |
+        cd lesson1
+        dotnet build
+        dotnet run
