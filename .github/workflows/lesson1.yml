@@ -5,12 +5,12 @@ on:
     branches: [ main ]
     paths:
     - .github/workflows/lesson1.yml
-    - lesson1/*
+    - lessons/1/*
   pull_request:
     branches: [ main ]
     paths:
     - .github/workflows/lesson1.yml
-    - lesson1/*
+    - lessons/1/*
 
 jobs:
   build1:

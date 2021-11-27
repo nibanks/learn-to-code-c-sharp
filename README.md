@@ -1,5 +1,8 @@
-# Learn to Code using C#
-The following is meant to be a general introduction to coding.
+# Learn to Code (C#)
+
+This is a general introduction to coding. It consists of a set of lessons that
+will teach you the basics of coding. No previous knowledge is required! All you
+need is a browser.
 
 # Lessons
 
