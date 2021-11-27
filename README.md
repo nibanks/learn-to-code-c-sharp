@@ -1,2 +1,2 @@
-# learn-to-code-c-sharp
-An introduction to learning to code, using C#
+# Learn to Code using C#
+The following is meant to be a general introduction to coding.
