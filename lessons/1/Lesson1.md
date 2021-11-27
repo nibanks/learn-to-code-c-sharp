@@ -142,4 +142,4 @@ You *can* follow the instructions [here](https://docs.microsoft.com/en-us/dotnet
 you to run everything locally, instead of in the cloud; but for the sake of trying
 to simply the setup, we will leverage the cloud instead.
 
-## Continue to [Lesson 2](../2/Lesson2.md)
+## Continue to [Lesson 2](../2/Lesson2.md#lesson-2)
