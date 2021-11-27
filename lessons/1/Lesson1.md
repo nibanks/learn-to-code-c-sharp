@@ -113,6 +113,38 @@ This essentially says:
  3. Print out some stuff so we know where "build" ends and "run" begins.
  4. Run the program.
 
+## Customize it!
+
+Now that you've been able to run it, let's try to customize the code to say
+something else. Let's go back to [Program.cs](Program.cs). Then click the edit
+button in the top right:
+
+![](../../.images/edit.png)
+
+Next, try changing the `Hello World!` to something else! For instance:
+
+```C#
+            Console.WriteLine("Goodbye World!");
+```
+
+Or, you could change it to be multiple different lines:
+
+```C#
+            Console.WriteLine("#######");
+            Console.WriteLine("# O O #");
+            Console.WriteLine("#  /  #");
+            Console.WriteLine("# \_/ #");
+            Console.WriteLine("#######");
+```
+
+Once you're done, scroll to the bottom and click the **Commit changes** button:
+
+![](../../.images/commit.png)
+
+This will save your changes and automatically start the GitHub Action that will
+build and run your latest code! Go back to the Actions tab, find Lesson 1 and
+open up the latest run to see the results!
+
 ### Can I run all this locally?
 
 You can follow the instructions [here](https://docs.microsoft.com/en-us/dotnet/core/install/windows?tabs=net60) to download and install the latest .NET on Windows. This would allow
