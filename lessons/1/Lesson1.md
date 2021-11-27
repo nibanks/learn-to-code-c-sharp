@@ -115,17 +115,17 @@ button in the top right:
 Next, try changing the `Hello World!` to something else! For instance:
 
 ```C#
-            Console.WriteLine("Goodbye World!");
+Console.WriteLine("Goodbye World!");
 ```
 
 Or, you could change it to be multiple different lines:
 
 ```C#
-            Console.WriteLine("#######");
-            Console.WriteLine("# O O #");
-            Console.WriteLine("#  /  #");
-            Console.WriteLine("# \_/ #");
-            Console.WriteLine("#######");
+Console.WriteLine("#######");
+Console.WriteLine("# O O #");
+Console.WriteLine("#  /  #");
+Console.WriteLine("# \_/ #");
+Console.WriteLine("#######");
 ```
 
 Once you're done, scroll to the bottom and click the **Commit changes** button:
