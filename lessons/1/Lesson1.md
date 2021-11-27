@@ -64,9 +64,38 @@ Now actions should be enabled!
 
 ### Manually Run the Action
 
+Now let's run the action for this lesson. On the left, under the **Workflows**
+list, find **Lesson 1** and click on it:
 
+![](../../.images/lesson1_workflow.png)
 
-### Can I run it locally?
+Next, on the right side, find and click on the **Run workflow** button:
+
+![](../../.images/lesson1_workflow_run.png)
+
+And finally click the next **Run workflow** button to finally run it:
+
+![](../../.images/lesson1_workflow_run2.png)
+
+You might have to refresh the page (hit F5), but you should see a new run started
+that looks like this:
+
+![](../../.images/lesson1_workflow_running.png)
+
+Click on it, and then wait a few seconds for it to complete. Then find and click
+on the **Build and Run** step to expand it:
+
+![](../../.images/lesson1_workflow_buildrun.png)
+
+At the bottom of that, you should see the final output of your program:
+
+![](../../.images/lesson1_workflow_result.png)
+
+## How Did All That Work?
+
+...
+
+### Can I run all this locally?
 
 You can follow the instructions [here](https://docs.microsoft.com/en-us/dotnet/core/install/windows?tabs=net60) to download and install the latest .NET on Windows. This would allow
 you to run everything locally, instead of in the cloud; but for the sake of trying
