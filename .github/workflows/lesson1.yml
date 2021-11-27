@@ -22,5 +22,5 @@ jobs:
       run: |
         cd lesson1
         dotnet build
-        ####################################
+        Write-Host "########################################"
         dotnet run
